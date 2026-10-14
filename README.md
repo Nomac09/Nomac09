@@ -1,6 +1,6 @@
 # Nasim Sawalma
 
-**Next.js / React developer working with AI agents.** I build and run production websites, from the database to the deployment, and I ship them with an agentic workflow: specs first, separate agents for implementation, tests and review, CI on every pull request, and every decision written down.
+**Full-stack developer · Next.js, React, TypeScript · Spec-driven, AI-assisted delivery.** I build and run production websites, from the database to the deployment, and I ship them with an agentic workflow: specs first, separate agents for implementation, tests and review, CI on every pull request, and every decision written down.
 
 *Développeur Next.js / React basé à Lille. Je conçois, livre et maintiens des sites en production, avec un workflow agentique : spécifications d'abord, agents aux rôles séparés, tests, revue et décisions tracées.*
 
@@ -29,7 +29,7 @@ Guardrails are code, not instructions: hooks stop agents from reading credential
 | [Sesame](https://sesamerestaurant.fr) ([code](https://github.com/Nomac09/sesame)) | Ordering site for a delivery kitchen: Stripe payments and webhooks, transactional email, row-level security, Playwright tests | Next.js, Supabase, Stripe, Resend, Playwright |
 | [Souqify](https://souqify.fr) ([code](https://github.com/Nomac09/souqify)) | E-commerce store for overstock and open-box items: supplier XLSX catalogue import, Stripe Checkout priced server-side, weight-based delivery options, VAT export, legal build gate, Playwright accessibility checks (axe) | Next.js, MongoDB, Stripe |
 | [Aani pay prototype](https://github.com/Nomac09/aani-pay-prototype) | Concept for paying tenant invoices through Aani, the UAE instant payment rail | Next.js, Tailwind, Framer Motion |
-| [gazahope.org](https://gazahope.org) | Donation platform built in under ten days and run in production for two and a half years | Next.js, Supabase, Vercel |
+| [gazahope.org](https://gazahope.org) | Donation platform, sole engineer: architecture, build, deployment and operation, 2.5 years in production | Next.js, Supabase, Vercel |
 
 ---
 
