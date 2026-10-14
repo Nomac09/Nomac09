@@ -26,8 +26,8 @@ Guardrails are code, not instructions: hooks stop agents from reading credential
 |---|---|---|
 | [ladonnadiferro.com](https://ladonnadiferro.com) | Full migration of a fashion label from Wix to Next.js, then a phased upgrade run with the workflow above ([case study](https://github.com/Nomac09/agentic-workflow-case-study)) | Next.js App Router, TypeScript, Supabase, Stripe, Vitest, Playwright, GitHub Actions |
 | [Gulf PR Atlas](https://gulfpr.org) ([code](https://github.com/Nomac09/gulfpr)) | Open-data reference on 20 Gulf PR agencies: maps, network graph, heatmap. Nothing published without a source | Next.js, TypeScript, Vercel |
-| [Sesame](https://sesamerestaurant.fr) ([code](https://github.com/Nomac09/sesame)) | Ordering site for a delivery kitchen: Stripe payments and webhooks, transactional email, row-level security, accessibility tests | Next.js, Supabase, Stripe, Resend, Playwright |
-| [Souqify](https://souqify.fr) ([code](https://github.com/Nomac09/souqify)) | E-commerce store for overstock and open-box items: supplier XLSX catalogue import, Stripe Checkout priced server-side, weight-based delivery options, VAT export, legal build gate | Next.js, MongoDB, Stripe |
+| [Sesame](https://sesamerestaurant.fr) ([code](https://github.com/Nomac09/sesame)) | Ordering site for a delivery kitchen: Stripe payments and webhooks, transactional email, row-level security, Playwright tests | Next.js, Supabase, Stripe, Resend, Playwright |
+| [Souqify](https://souqify.fr) ([code](https://github.com/Nomac09/souqify)) | E-commerce store for overstock and open-box items: supplier XLSX catalogue import, Stripe Checkout priced server-side, weight-based delivery options, VAT export, legal build gate, Playwright accessibility checks (axe) | Next.js, MongoDB, Stripe |
 | [Aani pay prototype](https://github.com/Nomac09/aani-pay-prototype) | Concept for paying tenant invoices through Aani, the UAE instant payment rail | Next.js, Tailwind, Framer Motion |
 | [gazahope.org](https://gazahope.org) | Donation platform built in under ten days and run in production for two and a half years | Next.js, Supabase, Vercel |
 
@@ -35,11 +35,11 @@ Guardrails are code, not instructions: hooks stop agents from reading credential
 
 ### Stack
 
-**Front-end:** React, Next.js (App Router, Server Components), TypeScript, Tailwind CSS, accessibility, SEO
-**Back-end and data:** Supabase (PostgreSQL, RLS), MongoDB, REST APIs, webhooks, Stripe, Resend
-**Quality:** Vitest, Playwright, ESLint, Prettier, GitHub Actions, pull-request reviews
-**AI:** Claude Code, Cursor, multi-agent workflows, spec-driven development
-**Learning now:** GraphQL, NestJS, Svelte
+- **Front-end:** React, Next.js (App Router, Server Components), TypeScript, Tailwind CSS, accessibility, SEO
+- **Back-end and data:** Supabase (PostgreSQL, RLS), MongoDB, REST APIs, webhooks, Stripe, Resend
+- **Quality:** Vitest, Playwright, ESLint, Prettier, GitHub Actions, pull-request reviews
+- **AI:** Claude Code, Cursor, multi-agent workflows, spec-driven development
+- **Learning now:** GraphQL, NestJS, Svelte
 
 ---
 
